@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
     bucket = "cft-tfstate-452e"
-    prefix = "terraform/state"  # organize your state, e.g., terraform/state/dev
+    prefix = "terraform/state/seed"  # organize your state, e.g., terraform/state/dev
   }
 }
 
