@@ -7,7 +7,8 @@ terraform {
 
 locals {
   roles = [
-    "logging.logWriter"
+    "logging.logWriter",
+    "artifactregistry.writer"
   ]
 }
 
