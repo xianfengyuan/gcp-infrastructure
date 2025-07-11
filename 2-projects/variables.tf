@@ -8,10 +8,10 @@ variable "project_id" {
 
 variable "billing_account_id" {
   type = string
-  default = "0112FE-8EA076-D29F0D"
+  default = ""
 }
 
 variable "org_id" {
   type = string
-  default = "70664156146"
+  default = ""
 }
